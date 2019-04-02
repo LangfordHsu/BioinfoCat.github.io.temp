@@ -1,3 +1,13 @@
+---
+layout:     post
+title:      "Welcome to BioinfoCat Blog"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2019-04-01 12:00:00
+author:     "BioinfoCat"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 生活
+---
 #### Git语法
 1. git add --all
 2. git commit -m "commit"
