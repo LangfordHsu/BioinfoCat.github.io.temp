@@ -1,33 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
 
-    {% include sidebar.html %}
-      
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-2.x-git.min.js"></script>
-      
-    <!-- Bootstrap Core JavaScript -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    {% include nav.html %}
 
-    <script src="{{ site.baseurl }}/js/index.js"></script>
+    {{ content }}
 
-  </body>
+    {% include footer.html %}
 
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-    
-    <script>
-    $(document).ready(function(){
-    $('#page-content-wrapper').fadeIn();
-    });
-    </script>
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
 
 </html>
