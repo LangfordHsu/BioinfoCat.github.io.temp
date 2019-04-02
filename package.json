@@ -2,7 +2,7 @@
     "name": "bioinfocat-blog",
     "title": "BioinfoCat Blog",
     "version": "1.0.0",
-    "homepage": "http://BioinfoCat.github.io",
+    "homepage": "https://BioinfoCat.github.io",
     "author": "BioinfoCat",
     "devDependencies": {
         "grunt": "~0.4.5",
