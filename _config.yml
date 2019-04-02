@@ -85,9 +85,6 @@ friends: [
         title: "BioinfoCat Blog",
         href: "http://BioinfoCat.top"
     },{
-        title: "Foo",
-        href: "#"
-    },{
         title: "It helps SEO",
         href: "#"
     }
